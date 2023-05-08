@@ -1,4 +1,4 @@
-import math_func
+from pipelines import math_func
 
 def test_add():
     assert math_func.add(7, 3) == 10
